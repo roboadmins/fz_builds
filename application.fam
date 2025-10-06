@@ -7,7 +7,7 @@ App(
     fap_category="tools",
     fap_description="Snag and replay Sub-GHz ghosts",
     fap_author="BlackhatGPT",
-    sources=["*.c"],
+    sources=["main.c"],
     fap_icon="icon.png",
     requires=["gui", "subghz", "storage"],
 )
