@@ -1,0 +1,13 @@
+App(
+    appid="subghz_ghost",
+    apptype=FlipperAppType.EXTERNAL,
+    name="Ghost Replay",
+    entry_point="subghz_ghost_main",
+    stack_size=4 * 1024,  // More for Sub-GHz buffers
+    fap_category="tools",
+    fap_description="Snag and replay Sub-GHz ghosts",
+    fap_author="BlackhatGPT",
+    sources=["*.c"],
+    fap_icon="icon.png",
+    requires=["gui", "subghz", "storage"],
+)
